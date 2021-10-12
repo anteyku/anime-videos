@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Аниме сайт Anteyku</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Nonamechik">
+		<meta name="keywords" content="Аниме, anime, Анимешники">
+		<meta name="description" content="Аниме сайт для просмотра аниме">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="../../styles/normalaiz.css">
+		<script src="https://kit.fontawesome.com/13a7ab383e.js" crossorigin="anonymous"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+	<body>
+		<header>
+			<!-- Левое меню -->
+
+
+			<a id="play"></a>
+
+			<section>	
+
+			<div id="icon-menu">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</div>					
+
+			<div class="menu">
+				<div class="menu__icon-menu">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</div>
+
+				<div class="menu__user-name">
+					Admin
+				</div>
+
+				<div class="menu__login">
+					Войти
+				</div>
+
+				<a href="../../index.html" class="menu__option">
+					<div class="menu__option__image">
+						<img src="../../image/header/home.png" alt="иконка дома">
+					</div>
+
+					<div class="menu__option__name">
+						Главная
+					</div>
+				</a>
+
+				<div class="menu__option">
+					<div class="menu__option__image">
+						<img src="../../image/header/catalogue.png" alt="иконка дома">
+					</div>
+
+					<div class="menu__option__name">
+						Каталог
+						Аниме
+					</div>
+				</div>
+
+				<a href="../animeTop/index.html" class="menu__option">
+					<div class="menu__option__image">
+						<img src="../../image/header/podium.png" alt="иконка дома">
+					</div>
+
+					<div class="menu__option__name">
+						Топы
+					</div>
+				</a>
+
+				<a href="../animeFilm/index.html" class="menu__option">
+					<div class="menu__option__image">
+						<img src="../../image/header/movie.png" alt="иконка дома">
+					</div>
+
+					<div class="menu__option__name">
+						Фильмы
+					</div>
+				</a>
+
+				<div class="menu__logo">
+					Anteyku
+				</div>
+			</div>
+
+		</section>
+
+			<!-- Конец левого меню -->
+
+
+
+			<!-- Левое меню которое выдвигаеться -->
+
+			<section>
+				<div class="pull-menu">
+
+					<div class="pull-menu__modul-window"></div>
+
+					<div class="pull-menu__top">
+						<div class="pull-menu__top__logo">
+							Anteyku
+						</div>
+
+						<div class="pull-menu__top__icon">
+							<i class="fa fa-times" aria-hidden="true"></i>
+						</div>
+					</div>
+
+					<div class="pull-menu__list">
+						<ul>
+							<li>ГЛАВНАЯ</li>
+							<li>КАТАЛОГ АНИМЕ
+								<ul>
+									<div class="pull-menu__list__mini-list">
+										<div class="pull-menu__list__mini-list__mini-block">
+											Война
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Комедия
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Приключения
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Школа
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Драма
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Детектив
+										</div>
+									</div>
+
+
+									<div class="pull-menu__list__mini-list">
+										<div class="pull-menu__list__mini-list__mini-block">
+											История
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Триллер
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Ужасы
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Китайское
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Фантастика
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Пародия
+										</div>
+									</div>
+
+
+									<div class="pull-menu__list__mini-list">
+										<div class="pull-menu__list__mini-list__mini-block">
+											Повседневность
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Романтика
+										</div>
+
+										<div class="pull-menu__list__mini-list__mini-block">
+											Спорт
+										</div>
+
+										
+									</div>
+								</ul>
+							</li>
+							<li>ТОП 100 АНИМЕ</li>
+							<li>АНИМЕ ФИЛЬМЫ</li>
+							<a href="page/animeCabinet/index.html">ЛИЧЬНЫЙ КАБИНЕТ</a>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<!-- Конец левого меню которое выдвигаеться -->
+
+
+
+
+
+
+			<!-- Диалоговое окно авторизации -->
+
+			<section>
+				<div id="auth" class="auth">
+					<div class="auth__center">
+						<div class="auth__center__left">
+							<img src="image/main/фон для регистрациии.jpg" alt="аниме арт">
+						</div>
+
+						<div class="auth__center__right">
+							<div class="auth__center__right__text-auth">
+								Авторизация
+							</div>
+
+							<input placeholder="Логин" class="auth__center__right__input">
+
+							<input placeholder="Пароль" class="auth__center__right__input">
+
+							<div class="auth__center__right__checkbox">
+								<input type="checkbox" id="yes">
+								<label for="yes">
+									<img src="image/main/tick.png" alt="галочка">
+								</label>
+								Я согласен с условиями ресурса
+							</div>
+
+							<div class="auth__center__right__button">
+								<div id="last-page" class="auth__center__right__button__register">
+									РЕГИСТРАЦИЯ
+								</div>
+
+								<div class="auth__center__right__button__login">
+									ВОЙТИ
+								</div>
+							</div>
+
+							<div class="auth__center__right__logo">
+								Anteyku
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div id="register" class="auth">
+					<div class="auth__center">
+						<div class="auth__center__left">
+							<img src="image/main/академия поднебесной.jpg" alt="аниме арт">
+						</div>
+
+						<div class="auth__center__right">
+							<div class="auth__center__right__text-auth">
+								Регистрация
+							</div>
+
+							<input placeholder="Логин" class="auth__center__right__input">
+
+							<input placeholder="Пароль" class="auth__center__right__input">
+
+							<input placeholder="Пов-пароль" class="auth__center__right__input">
+
+							<input placeholder="e-mail" class="auth__center__right__input">
+
+							<div class="auth__center__right__checkbox">
+								<input type="checkbox" id="yes">
+								<label for="yes">
+									<img src="image/main/tick.png" alt="галочка">
+								</label>
+								Я согласен с условиями ресурса
+							</div>
+
+							<div class="auth__center__right__button">
+								<div id="log-in" class="auth__center__right__button__register">
+									ВОЙТИ
+								</div>
+
+								<div class="auth__center__right__button__login">
+									РЕГИСТРАЦИЯ
+								</div>
+							</div>
+
+							<div class="auth__center__right__logo">
+								Anteyku
+							</div>
+						</div>
+					</div>
+				</div>				
+			</section>
+
+			<!-- Конец диалогового окна авторизации -->
+		</header>
+
+		<main>
+
+			<section>
+				<!-- Блок аниме сверху -->
+
+				<div class="anime-list">
+					<div class="anime-list__middle">
+						<div class="anime-list__middle__position-img">
+							<img src="image/header/фон для шапки.jpg" alt="аниме фон">
+						</div>
+
+						<div class="anime-list__middle__mini-block">
+							
+							<img src="image/header/ванпачмен.jpg">
+
+							<div class="anime-list__middle__mini-block__description-position">
+								Ванпанчмен
+							</div>
+						</div>
+
+						<div class="anime-list__middle__mini-block">
+							
+							<img src="image/header/обещанный неверленд.jpg">
+
+							<div class="anime-list__middle__mini-block__description-position">
+								Обещанный Неверленд
+							</div>
+						</div>
+
+						<div class="anime-list__middle__mini-block">
+							
+							<img src="image/header/тетрадь смерти.png">
+
+							<div class="anime-list__middle__mini-block__description-position">
+								Тетрадь Смерти
+							</div>
+						</div>
+
+						<div class="anime-list__middle__mini-block">
+							
+							<img src="image/header/доктор стоун.jpg">
+
+							<div class="anime-list__middle__mini-block__description-position">
+								Доктор Стоун
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Конец блока аниме сверху -->
+			</section>
+
+
+			<section>
+				<!-- Блок соединяющий центр и правый блок -->
+
+				<div class="connections">
+
+					<!-- Центральный блок -->
+
+					
+
+					<div class="main-block">
+
+
+						<!-- Описание Аниме -->
+
+						<div class="main-block__description">
+							<div class="main-block__description__left">
+								<div class="main-block__description__left__img">
+									<img src="image/main/убийца акаме.jpg" alt="аниме убийца акаме">
+								</div>
+
+								<div class="main-block__description__right__description">
+									Убийца Акамэ
+								</div>
+							</div>
+
+							<div class="main-block__description__right">
+								<div class="main-block__description__right__status">
+									Статус: <span>вышел</span>
+								</div>
+
+								<div class="main-block__description__right__year">
+									Год:  <span>2014</span> 
+								</div>
+
+								<div class="main-block__description__right__season">
+									Сезон:  <span>Лето</span> 
+								</div>
+
+								<div class="main-block__description__right__year-reyting">
+									Возрастной рейтинг:  <span>R-17+ (насилие и/или нецензурная лексика)</span> 
+								</div>
+
+								<div class="main-block__description__right__genre">
+									Жанр:  <span> Драма, Убийцы, Приключения, Фєнтези, Экшен, Сражения на мечах</span> 
+								</div>
+
+								<div class="main-block__description__right__manga">
+									Первоисточник: <span>Манга</span> 
+								</div>
+
+								<div class="main-block__description__right__studio">
+									Студия: <span>White Fox</span> 
+								</div>
+
+								<div class="main-block__description__right__producer">
+									Режиссер: <span>Кобаяси Томоки</span>
+								</div>
+
+								<div class="main-block__description__right__type">
+									Тип: <span>Сериал</span>
+								</div>
+
+								<div class="main-block__description__right__series">
+									Серии: <span>24</span>
+								</div>
+
+								<div class="main-block__description__right__translate">
+									Перевод: <span>Многоголосый Субтитры</span>
+								</div>
+
+								<div class="main-block__description__right__voice-vaiting">
+									Озвучка: <span>Anidub, Anilibria</span>
+								</div>
+
+
+								<div class="main-block__description__right__mark">
+									8.15
+								</div>
+							</div>
+						</div>
+
+
+						<div class="anime-description">
+							Повесть берет начало в некой Империи, которая прогнила в коррупции, 
+							бедности, насилии и жестокости. Правит страной молодой Император,
+							 но мальчик наивен и неопытен в правлении, поэтому им помыкает премьер-министр
+							  Империи, который разрушает страну. Он является главным антагонистом серии 
+							  и главной целью «Ночного Рейда». Всему этому злу противостоит революционная 
+							  армия, которая хочет изменить Империю к лучшему. Помогает революции группа
+							   убийц — «Ночной Рейд». Они убивают людей, которые угрожают безопасности 
+							   граждан и революции. У Империи тоже есть свои убийцы, которых созвали,
+							    чтобы уничтожить «Ночной Рейд». В этой войне убийцы двух сторон используют
+							     тэйгу — древние артефакты, созданные Империей более 1000 лет назад. 
+							     С помощью редких материалов, собранных из самых редких и опасных существ, 
+							     великих ученых, живших тогда и силы самого Императора, они создали нечто
+							      невероятное для того времени — 48 смертельных орудий, называемых тэйгу.
+							       Сила и форма тэйгу была самой разнообразной, но чтобы использовать тэйгу,
+							        человек должен быть с ним совместим.
+						</div>
+
+						<!-- Конец описание Аниме -->
+
+
+
+
+						<section>
+
+							<!-- Видео плеер -->
+							<div class="video-player">
+								<div class="video-player__top">
+									<ol id="player">
+
+										<li id="target-player">Озвучка AniDub(24 эп.)</li>
+											<ol>
+												<li>Озвучка AniDub(24 эп.)</li>
+												<li>Озвучка AniMedia(24 эп.)</li>
+												<li>Озвучка AniFilm(24 эп.)</li>
+												<li>Озвучка MariaDUB(24 эп.)</li>
+												<li>Озвучка SHIZA Project(24 эп.)</li>
+											</ol>
+
+										<img id="arrow-one" src="image/main/стрелка влево.png" alt="стрелка вниз">	
+									</ol>
+
+
+									<ol id="player">
+
+										<li id="target-player">Плеер Kodik(24 эп.)</li>
+											<ol>
+												<li>Плеер Kodik(24 эп.)</li>
+												<li>Плеер Sibnet(24 эп.)</li>
+											</ol>
+
+										<img id="arrow-one" src="image/main/стрелка влево.png" alt="стрелка вниз">	
+									</ol>
+
+									
+								</div>
+
+
+
+								<div class="video-player__center">
+									<div class="video-player__center__series">1</div>
+									<div class="video-player__center__series">2</div>
+									<div class="video-player__center__series">3</div>
+									<div class="video-player__center__series">4</div>
+									<div class="video-player__center__series">5</div>
+									<div class="video-player__center__series">6</div>
+									<div class="video-player__center__series">7</div>
+									<div class="video-player__center__series">8</div>
+									<div class="video-player__center__series">9</div>
+									<div class="video-player__center__series">10</div>
+									<div class="video-player__center__series">11</div>
+									<div class="video-player__center__series">12</div>
+								</div>
+
+
+
+
+
+								<div class="video-player__bottom">
+
+									<iframe width="790" height="444" src="https://www.youtube.com/embed/iFKXsCZGV8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+									<div class="video-player__bottom__warnings-position">
+										<div class="video-player__bottom__warnings-position__eyting-plus">
+											18+
+										</div>
+
+										<div class="video-player__bottom__warnings-position__description">
+											Данный контент только для <br/> лиц старше 18-ти лет
+										</div>
+
+										<div class="video-player__bottom__warnings-position__button-accept">
+											<button>Мне уже есть 18</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Конец видео плеера -->
+						</section>
+
+
+
+						<section>
+							<!-- Комменты к видео -->
+							<div class="comments-line">
+								<div class="comments-line__text-comments">
+									КОММЕНТАРИИ
+								</div>
+							</div>
+
+
+							<div class="user-comments">
+								<div class="user-comments__mini-block">
+									<div class="user-comments__mini-block__left">
+										<div class="user-comments__mini-block__left__image">
+											<img src="image/main/аниме аватарка в коментариях.jpg" alt="аватарка пользователя">
+										</div>
+
+										<div class="user-comments__mini-block__left__ranks">
+											Новычок
+										</div>
+
+									</div>
+
+									<div class="user-comments__mini-block__right">
+										<div class="user-comments__mini-block__right__top">
+											<span class="nickname">Honoriko</span> Вчера, 06:46
+										</div>
+
+										<div class="user-comments__mini-block__right__bottom">
+											Её за прошедший промежуток времени успели вылечить от синдрома Хиномидзавы.
+											 Теперь невольно задумаешься о связи между её болезнью и поведением (сарказм). 
+											 Ещё в связи с этим, кстати, когда её в школе для благородных девиц посадили в
+											  камеру, я думал, что синдром может снова вернуться (на его проявление, 
+											  насколько помню, влияли сильные негативные эмоции), но нет, Сатоко просто
+											   обозлилась.
+
+											<p>И, кстати, её собственное поведение стало всё больше походить на поведение дяди.
+											 Вот что значит родная кровь. Но да, не бесконечных бессмысленных убийств и
+											  самоубийств я ждал.</p>
+										</div>
+
+										<div class="user-comments__mini-block__right__bottom__like-dislike">
+											<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+											23
+											<i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+											2
+										</div>
+									</div>
+								</div>
+
+
+
+								<div class="user-comments__mini-block">
+									<div class="user-comments__mini-block__left">
+										<div class="user-comments__mini-block__left__image">
+											<img src="image/main/аватарка вторая комментариев.jpg" alt="аватарка пользователя">
+										</div>
+
+										<div class="user-comments__mini-block__left__ranks">
+											Новычок
+										</div>
+
+									</div>
+
+									<div class="user-comments__mini-block__right">
+										<div class="user-comments__mini-block__right__top">
+											<span class="nickname">Navi</span> 11 февраля 2021 19:48
+										</div>
+
+										<div class="user-comments__mini-block__right__bottom">
+											Как сказать. В целом всё то же самое. Все друг друга увечат, 
+											калечат, убивают. В общем нормальная цивилизованная жизнь.
+
+											<p>Однако как по мне "старые" цикады более нудные. Может конечно я моложе
+											 был и поэтому мне не вставляло, всё таки почти 15 лет прошло с тех пор, но я 
+											 эту тягомотину дропнул в середине первого сезона по-моему. "Новые" цикады мне
+											  нравятся куда больше.))</p>
+										</div>
+
+										<div class="user-comments__mini-block__right__bottom__like-dislike">
+											<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+											17
+											<i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+											7
+										</div>
+									</div>
+								</div>
+
+
+
+								<div class="user-comments__mini-block">
+									<div class="user-comments__mini-block__left">
+										<div class="user-comments__mini-block__left__image">
+											<img src="image/main/третя аватарка для аниме коментов.jpg" alt="аватарка пользователя">
+										</div>
+
+										<div class="user-comments__mini-block__left__ranks">
+											Ветеран
+										</div>
+
+									</div>
+
+									<div class="user-comments__mini-block__right">
+										<div class="user-comments__mini-block__right__top">
+											<span class="nickname">Orivanto</span> 5 февраля 2021 00:29
+										</div>
+
+										<div class="user-comments__mini-block__right__bottom">
+											Эх, были бы они лет хотя бы на 5 постарше, да жили бы не в таком всратом 
+											захолустье можно было бы ему (дяде) тупо  наркоты подбросить и копам анонимно 
+											стукануть. Если все деревенские его действительно настолько ненавидят, то и 
+											заступаться никто не стал бы, а копам только повод дай прижать какого-нибудь типа.
+											 В самом неудачном случае если бы в суде его оправдали, то для опеки он всё равно
+											  стал бы дерьмовым опекуном и его лишили бы опеки над Сатоко. А при наилучшем
+											   раскладе уехал бы лет на 10, к тому моменту как он вышел бы, Сатоко уже стала
+											    бы совершеннолетней...
+											Но, блин, они дети и живут в Хинамидзаве. Негде пороху достать, а без него
+											 такой простой и элегантный план не сработает...
+
+											<p>Это фишка такая. История вроде как носит цикличный повторяющийся характер,
+											 но каждый раз одни и те же события обрастают всё новыми и новыми подробностями,
+											  иногда весьма искажёнными.</p>
+
+										</div>
+
+										<div class="user-comments__mini-block__right__bottom__like-dislike">
+											<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+											5
+											<i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+											0
+										</div>
+									</div>
+								</div>
+
+
+
+								<div class="user-comments__mini-block">
+									<div class="user-comments__mini-block__left">
+										<div class="user-comments__mini-block__left__image">
+											<img src="image/main/аниме аватарка момментария.jpg" alt="аватарка пользователя">
+										</div>
+
+										<div class="user-comments__mini-block__left__ranks">
+											Гость
+										</div>
+
+									</div>
+
+									<div class="user-comments__mini-block__right">
+										<div class="user-comments__mini-block__right__top">
+											<span class="nickname">Nagibator</span> 19 ноября 2020 22:03
+										</div>
+
+										<div class="user-comments__mini-block__right__bottom">
+											ну это очередное ведение автора, а не сьемки по оригиналу увы опять облом...
+
+										</div>
+
+										<div class="user-comments__mini-block__right__bottom__like-dislike">
+											<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+											2
+											<i class="fa fa-thumbs-o-down" aria-hidden="true"></i>
+											3
+										</div>
+									</div>
+
+
+
+
+
+
+
+
+								</div>
+							</div>
+							<!-- Конец коментов к видео -->
+						</section>
+
+						
+					</div>
+
+					
+
+					<!-- Конец центрального блока -->
+
+
+			<!-- Правый блок -->
+
+			<div class="right-block">
+				<div class="right-block__sticky">
+				<div class="right-block__advertising">
+					<div class="right-block__advertising__img">
+						<img src="../../image/main/рекронгелгнл.jpg" alt="аниме блок">
+					</div>
+
+					<div class="right-block__advertising__name">
+						Реклама
+					</div>
+
+					<div class="right-block__advertising__description">
+						Подробнее
+					</div>
+				</div>
+
+
+				<!-- Блок подписки -->
+
+				<div class="subscribe-block">
+					<div class="subscribe-block__title">
+						ПОДПИСКИ
+					</div>
+
+					<div class="subscribe-block__description">
+						Вы можете подписаться на наши
+						обновления
+					</div>
+
+					<div class="subscribe-block__input">
+						<input id="subscribe" placeholder="E-MAIL" type="text">
+					</div>
+
+					<div class="subscribe-block__button">
+						<button id="btn-subsribe">Отправить</button>
+					</div>
+				</div>
+
+				<!-- Конец блока подписки -->
+
+				<!-- Чат в правом блоке -->
+
+				<div class="chat">
+					<div class="chat__top-title">
+						<div class="chat__top-title__icon">
+							<img src="../../image/main/comment-chat.png" alt="лого чата">
+						</div>
+
+						<div class="chat__top-title__title">
+							КОММЕНТАРИИ
+						</div>
+					</div>
+
+					<div class="chat__comments">
+						<div class="chat__comments__left-icon">
+							<img src="../../image/main/avatar-one.jpg" alt="аватарка пльзователя">
+						</div>
+
+						<div class="chat__comments__right-block">
+							<div class="chat__comments__right-block__nickname">
+								Veronika
+							</div>
+
+							<div class="chat__comments__right-block__comment">
+								В 13 лет уже можно всё прекрасно понимать, 
+								что к примеру не нужно без спроса брать 
+								родительские деньги и пускать их на игры, 
+								а про суицид так и вообще из адекватных 
+								никто не задумывается.
+							</div>
+
+							<div class="chat__comments__right-block__time">
+								<img src="../../image/main/time-comment.png" alt="часы">
+								<div class="chat__comments__right-block__time__date">
+									04 сен 13:54
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="chat__comments">
+						<div class="chat__comments__left-icon">
+							<img src="../../image/main/avatar-two.jpg" alt="аватарка пльзователя">
+						</div>
+
+						<div class="chat__comments__right-block">
+							<div class="chat__comments__right-block__nickname">
+								Nakakimoto338
+							</div>
+
+							<div class="chat__comments__right-block__comment">
+								Сдается мне дело совсем не в капитализме или либеральных ценностях
+							</div>
+
+							<div class="chat__comments__right-block__time">
+								<img src="../../image/main/time-comment.png" alt="часы">
+								<div class="chat__comments__right-block__time__date">
+									24 янв 18:03
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="chat__comments">
+						<div class="chat__comments__left-icon">
+							<img src="../../image/main/avatar-three.jpg" alt="аватарка пльзователя">
+						</div>
+
+						<div class="chat__comments__right-block">
+							<div class="chat__comments__right-block__nickname">
+								Kashimoto
+							</div>
+
+							<div class="chat__comments__right-block__comment">
+								вообще не пользуюсь бесплатной медициной в России. 
+								Попробовал несколько раз — талоны, хамство, очереди,
+								 врачи делающие одолжение. Ребенка вожу исключительно на
+								 платной основне. Совершенно другое отношение: четкая запись, 
+								 вежливый персонал, конфетки-игрушки. Не знаю как там в других
+								  регионах, но у нас уровень медицины ужасен. Врачей не хватает. 
+								  Нет детского кардиолога, окулиста. Все бегут из бесплатной медицины 
+								  в регионе из-за маленьких зп. А многие оказываемые бесплатные услуги
+								   низкого качества. Готов платить за медицину, если это повысит 
+								   ее уровень. А такая бесплатная и даром не нужна (соррян за каламбур).
+								    Здоровье дороже
+							</div>
+
+							<div class="chat__comments__right-block__time">
+								<img src="../../image/main/time-comment.png" alt="часы">
+								<div class="chat__comments__right-block__time__date">
+									04 сен 13:54
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="chat__comments">
+						<div class="chat__comments__left-icon">
+							<img src="../../image/main/рекронгелгнл.jpg" alt="аватарка пльзователя">
+						</div>
+
+						<div class="chat__comments__right-block">
+							<div class="chat__comments__right-block__nickname">
+								Omalivento
+							</div>
+
+							<div class="chat__comments__right-block__comment">
+								как со стеной разговариваю
+								И да, бОльшая часть россиян, даже на этом сайте, вас, 
+								кто пилит за режим по любому поводу всего 4-5 человек! 
+								Таких отбитых и с таким багажем знаний и мыслей вас уже
+								 меньшинство, смеритесь с этим!
+							</div>
+
+							<div class="chat__comments__right-block__time">
+								<img src="../../image/main/time-comment.png" alt="часы">
+								<div class="chat__comments__right-block__time__date">
+									01 дек 03:11
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="chat__comments">
+						<div class="chat__comments__left-icon">
+							<img src="../../image/main/аватарка вторая комментариев.jpg" alt="аватарка пльзователя">
+						</div>
+
+						<div class="chat__comments__right-block">
+							<div class="chat__comments__right-block__nickname">
+								Yrdalak4men
+							</div>
+
+							<div class="chat__comments__right-block__comment">
+								Их проклятый фильтр мой коммент за слово «вообще» удалял...
+								 Я не мог понять почему он удаляет мои комментарии, пока не
+								  убрал его. Ютуб давно стал помойкой! Нету никакой свободы,
+								   еще и за «ботокс» стали чистить комментарии... Я догадываюсь 
+								   почему они это начали делать, рука царя очень могущественная!
+								    Мне иногда даже комментарии не хочется там оставлять, боюсь
+								     лишний раз получить возгорание пятой точки.
+							</div>
+
+							<div class="chat__comments__right-block__time">
+								<img src="../../image/main/time-comment.png" alt="часы">
+								<div class="chat__comments__right-block__time__date">
+									23 дек 06:23
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<button class="button">
+						Читать еще..
+					</button>
+				</div>
+
+				<!-- Конец чата в правом блоке -->
+				</div>
+
+			</div>
+
+
+
+
+			<!-- Регулярное окно подтверждения подписки -->
+
+				<div class="modul-subscribee">
+					<div class="modul-subscribee__text">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+						Рассылка успешно подтверждена.
+					</div>
+					<div class="modul-subscribee__email">genadiy@gmail.ru</div>
+				</div>
+
+			<!-- Конец регулярного окна конца подписки -->
+
+
+
+
+			<!-- Конец правого блока -->
+				</div>
+
+				<!-- Конец блока соединяющий центр и правый блок -->
+			</section>
+
+			
+		</main>
+
+		<footer>
+
+
+			<!-- Подвал сайта -->
+
+			<section>
+				<div class="footer">
+					<div class="footer__left-img">
+						<img src="../../image/main/логотип.jpg" alt="аниме картинка">
+					</div>
+
+					<div class="footer__right-description">
+						<div class="footer__right-description__position-logo">
+							Anteyku
+						</div>
+
+						<div class="footer__right-description__description">
+							Аниме – японская анимация, завоевавшая миллионы 
+							поклонников по всему миру. На нашем сайте вы можете 
+							смотреть бесплатное аниме онлайн. Специально для вас
+							 мы собрали фильмы различных жанров и разного хронометража.
+							  Смотрите бесплатное аниме онлайн и получайте удовольствие от просмотра!
+						</div>
+
+						<div class="footer__right-description__license">
+							COPYRIGHT © 2021 <span class="logo">ANTEYKU</span> - ALL RIGHTS RESERVED
+						</div>
+
+						<div class="footer__right-description__social-network">
+							<img src="../../image/main/logo vk.png" alt="вконтакте">
+							<img src="../../image/main/logo facebook.png" alt="фейсбук">
+							<img src="../../image/main/logo twiter.png" alt="твитер">
+							<img src="../../image/main/google logo.png" alt="гугл">
+							<img src="../../image/main/logo youtube.png" alt="ютуб">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Конец подвала сайта -->
+
+			
+		</footer>
+
+		<script src="script/script.js"></script>
+	</body>
+</html>
